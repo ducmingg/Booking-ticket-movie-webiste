@@ -1,0 +1,17 @@
+{
+  "name": "booking-ticket-movie-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch style/style.scss style/style.css --output-style nested"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "node-sass": "^9.0.0",
+    "scss": "^0.2.4"
+  }
+}
