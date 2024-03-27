@@ -14,18 +14,23 @@
     .sec__detail .detail__img .attach {
       display: flex;
       align-items: center;
-      justify-content: center;
-      width: 100px;
-      border: 1px solid red;
-      padding: 15px; }
-      .sec__detail .detail__img .attach .type__movie span,
-      .sec__detail .detail__img .attach .age > span {
-        font-family: "Anton", sans-serif;
-        border: 1px solid black;
-        padding: 10px 10px;
-        border-radius: 10px; }
+      justify-content: center; }
       .sec__detail .detail__img .attach .type__movie {
-        background-color: #FF9933; }
+        font-family: "Anton", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .sec__detail .detail__img .attach .type__movie .txt {
+          padding: 8px;
+          background-color: #FF9933;
+          color: #0F172A; }
+        .sec__detail .detail__img .attach .type__movie .num {
+          background-color: #FF0033;
+          padding: 8px; }
   .sec__detail .detail__info > div,
   .sec__detail .detail__info > ul {
     margin-bottom: 30px; }
@@ -70,3 +75,38 @@
         font-family: "Josefin Sans", sans-serif;
         text-decoration: none;
         font-size: 1.2em; }
+
+.detail__img {
+  position: relative; }
+
+.sh__time--wrapper .shtime__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .sh__time--wrapper .shtime__header--title {
+    font-family: "Anton", sans-serif; }
+  .sh__time--wrapper .shtime__header--timelist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .sh__time--wrapper .shtime__header--timelist .box-time {
+      margin-right: 20px;
+      margin-left: 20px;
+      background-color: #F3EA28;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Josefin Sans", sans-serif;
+      padding: 20px;
+      border-radius: 10px; }
+      .sh__time--wrapper .shtime__header--timelist .box-time .date-time {
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 1.2em; }
+      .sh__time--wrapper .shtime__header--timelist .box-time .date-time span,
+      .sh__time--wrapper .shtime__header--timelist .box-time .day-time span {
+        color: #663399;
+        background-color: #F3EA28; }

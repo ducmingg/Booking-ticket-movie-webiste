@@ -19,19 +19,29 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 100px;
-                border: 1px solid red;
-                padding: 15px;
-                .type__movie span,
-                .age>span {
-                    font-family: "Anton", sans-serif;
-                    border: 1px solid black;
-                    padding: 10px 10px;
-                    border-radius: 10px;
-                }
+
                 .type__movie {
-                    background-color:#FF9933 ;
+                    font-family: "Anton", sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    .txt {
+                        padding: 8px;
+                        background-color: #FF9933;
+                        color: #0F172A;
+                    }
+
+                    .num {
+                        background-color: #FF0033;
+                        padding: 8px;
+                    }
                 }
+
             }
         }
     }
@@ -113,6 +123,60 @@
             flex-direction: row;
             justify-content: start;
             align-items: center;
+        }
+    }
+}
+
+//
+.detail__img {
+    position: relative;
+}
+
+// 
+.sh__time--wrapper {
+    .shtime__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &--title {
+            font-family: "Anton", sans-serif;
+        }
+
+        &--timelist {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .box-time {
+                margin-right: 20px;
+                margin-left: 20px;
+                background-color: #F3EA28;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                font-family: "Josefin Sans", sans-serif;
+                padding: 20px;
+                border-radius: 10px;
+
+                .date-time {
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                }
+
+                .date-time span,
+                .day-time span {
+                    color: #663399;
+                    background-color: #F3EA28;
+                }
+
+            }
+
+            ;
         }
     }
 }
