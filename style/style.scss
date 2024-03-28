@@ -240,20 +240,128 @@
                 overflow: hidden;
                 max-height: 0;
                 transition: all 0.4s ease-out;
+
                 .list__shtime li {
-                    margin-bottom:  16px;
+                    margin-bottom: 16px;
                     list-style: none;
                 }
+
+                .tt {
+                    margin-bottom: 16px;
+                }
+
+                .list__shtime {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-direction: row;
+                    padding-left: 0;
+
+                    li {
+                        padding: 8px 10px;
+                        border-radius: 5px;
+                        color: white;
+                        border: 1px solid white;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #F3EA28;
+                            border: 1px solid #F3EA28;
+                            transition: all 0.2s ease-in;
+                        }
+                    }
+                }
             }
-
-
         }
     }
+}
+
+//phần tử có cả enable và disable
+.shtime__item.enable {
+    // font-size: 1.1em;
+    color: #F3EA28 !important;
+    border: 1px solid #F3EA28 !important;
+    background-size: 100% 100%;
 }
 
 .title__cinestar {
     input[type="radio"]:checked+label+.collapse__shtime {
         max-height: 400px;
         padding-bottom: 20px;
+    }
+}
+
+// 
+
+.ticket {
+    .ticket-choice {
+        text-align: center;
+        margin-top: 44px;
+        padding-bottom: 17px;
+    }
+}
+
+.wrapper__ticket--box {
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .ticket__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #94A3B8;
+        padding: 15px 37px;
+        border-radius: 5px;
+        margin: 0 15px;
+        width: 15%;
+
+        * {
+            margin-bottom: 10px;
+        }
+
+        &:hover {
+            border: 2px solid #F3EA28;
+            transition: all 0.2s ease-in;
+        }
+
+        .content__bottom {
+
+            padding: 10px 15px;
+            width: 70%;
+            border-radius: 5px;
+            background-color: #94A3B8;
+
+            .count {
+                text-align: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 0;
+                justify-content: space-between;
+                background-color: #94A3B8;
+
+                * {
+                    color: #0F172A;
+                    font-size: 1.2em;
+                    background-color: #94A3B8;
+                    margin-bottom: 0;
+                }
+
+                .minus,
+                .plus {
+                    cursor: pointer;
+                    width: 1em;
+                    height: 1em;
+                    border-radius: 50%;
+
+                    &:hover {
+                        background-color: #663399;
+                    }
+                }
+            }
+        }
     }
 }

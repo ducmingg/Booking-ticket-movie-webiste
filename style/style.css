@@ -156,7 +156,83 @@
     .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime .list__shtime li {
       margin-bottom: 16px;
       list-style: none; }
+    .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime .tt {
+      margin-bottom: 16px; }
+    .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime .list__shtime {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      padding-left: 0; }
+      .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime .list__shtime li {
+        padding: 8px 10px;
+        border-radius: 5px;
+        color: white;
+        border: 1px solid white;
+        cursor: pointer; }
+        .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime .list__shtime li:hover {
+          color: #F3EA28;
+          border: 1px solid #F3EA28;
+          transition: all 0.2s ease-in; }
+
+.shtime__item.enable {
+  color: #F3EA28 !important;
+  border: 1px solid #F3EA28 !important;
+  background-size: 100% 100%; }
 
 .title__cinestar input[type="radio"]:checked + label + .collapse__shtime {
   max-height: 400px;
   padding-bottom: 20px; }
+
+.ticket .ticket-choice {
+  text-align: center;
+  margin-top: 44px;
+  padding-bottom: 17px; }
+
+.wrapper__ticket--box {
+  margin: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .wrapper__ticket--box .ticket__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #94A3B8;
+    padding: 15px 37px;
+    border-radius: 5px;
+    margin: 0 15px;
+    width: 15%; }
+    .wrapper__ticket--box .ticket__item * {
+      margin-bottom: 10px; }
+    .wrapper__ticket--box .ticket__item:hover {
+      border: 2px solid #F3EA28;
+      transition: all 0.2s ease-in; }
+    .wrapper__ticket--box .ticket__item .content__bottom {
+      padding: 10px 15px;
+      width: 70%;
+      border-radius: 5px;
+      background-color: #94A3B8; }
+      .wrapper__ticket--box .ticket__item .content__bottom .count {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+        justify-content: space-between;
+        background-color: #94A3B8; }
+        .wrapper__ticket--box .ticket__item .content__bottom .count * {
+          color: #0F172A;
+          font-size: 1.2em;
+          background-color: #94A3B8;
+          margin-bottom: 0; }
+        .wrapper__ticket--box .ticket__item .content__bottom .count .minus,
+        .wrapper__ticket--box .ticket__item .content__bottom .count .plus {
+          cursor: pointer;
+          width: 1em;
+          height: 1em;
+          border-radius: 50%; }
+          .wrapper__ticket--box .ticket__item .content__bottom .count .minus:hover,
+          .wrapper__ticket--box .ticket__item .content__bottom .count .plus:hover {
+            background-color: #663399; }
