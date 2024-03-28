@@ -83,14 +83,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 40px; }
   .sh__time--wrapper .shtime__header--title {
     font-family: "Anton", sans-serif; }
   .sh__time--wrapper .shtime__header--timelist {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
     .sh__time--wrapper .shtime__header--timelist .box-time {
       margin-right: 20px;
       margin-left: 20px;
@@ -110,3 +112,51 @@
       .sh__time--wrapper .shtime__header--timelist .box-time .day-time span {
         color: #663399;
         background-color: #F3EA28; }
+
+.sh__time--wrapper .shtime__body--header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .sh__time--wrapper .shtime__body--header h2 {
+    font-family: "Anton", sans-serif;
+    margin-left: 0px; }
+  .sh__time--wrapper .shtime__body--header .list__cinestar > i {
+    color: #F3EA28; }
+  .sh__time--wrapper .shtime__body--header .list__cinestar #list {
+    color: #F3EA28;
+    padding: 10px;
+    border: none; }
+
+.sh__time--wrapper .item__cinestar {
+  background-color: #663399;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 16px;
+  padding-bottom: 16px; }
+  .sh__time--wrapper .item__cinestar * {
+    background-color: #663399; }
+  .sh__time--wrapper .item__cinestar .title__cinestar h2 {
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 0px;
+    color: #F3EA28;
+    margin-bottom: 0; }
+  .sh__time--wrapper .item__cinestar .title__cinestar input[type="radio"] {
+    display: none; }
+  .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.4s ease-out; }
+    .sh__time--wrapper .item__cinestar .title__cinestar .collapse__shtime .list__shtime li {
+      margin-bottom: 16px;
+      list-style: none; }
+
+.title__cinestar input[type="radio"]:checked + label + .collapse__shtime {
+  max-height: 400px;
+  padding-bottom: 20px; }
