@@ -84,5 +84,19 @@ plus_t.addEventListener('click', () => {
     }
 })
 
+const popup = document.querySelector('#popup__wrapper');
+popup.style.display = "none"
 
+
+let count;
+const btn_plus = document.querySelectorAll('.count :nth-child(3)');
+btn_plus.forEach(element => {
+    element.addEventListener("click", () => {
+        count = parseInt(count_f.textContent) + parseInt(count_s.textContent) + parseInt(count_t.textContent);
+        if(count > 8) {
+            popup.style.display = "block";
+            
+        }
+    })
+});
 
