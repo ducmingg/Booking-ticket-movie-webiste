@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce3c70e-5b7c-4993-a548-9d52a1c5677d" name="Changes" comment="" />
+    <list default="true" id="9ce3c70e-5b7c-4993-a548-9d52a1c5677d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +17,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="SCSS File" />
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/style/variable.scss" root0="FORCE_HIGHLIGHTING" />
@@ -28,17 +36,22 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2eCgKTZBmqxZ7pHw8DIQM5vwVB2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hoainam",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GitHub/Booking-ticket-movie-webiste/style",
+    "last_opened_file_path": "C:/Users/NAM/OneDrive/Documents/GitHub/Booking-ticket-movie-webiste",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -46,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "D:/nodejs/node",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.scss.executor": "Run",
     "npm.test.executor": "Run",
@@ -83,13 +96,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,6 +121,10 @@
       <workItem from="1712031646403" duration="878000" />
       <workItem from="1712041282052" duration="4097000" />
       <workItem from="1712055330933" duration="1636000" />
+      <workItem from="1712062326228" duration="339000" />
+      <workItem from="1712062675623" duration="53000" />
+      <workItem from="1712062747711" duration="18000" />
+      <workItem from="1712063047031" duration="35000" />
     </task>
     <servers />
   </component>

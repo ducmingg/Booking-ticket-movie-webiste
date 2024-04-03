@@ -1,0 +1,74 @@
+
+.footer {
+    background-color: #333; /* Màu nền của footer */
+    color: white; /* Màu chữ */
+    padding: 50px 0; /* Khoảng cách giữa nội dung và mép footer */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .container .col{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/* CSS cho hình ảnh logo */
+.footer .container .row .img img {
+    max-width: 100%; /* Kích thước tối đa của hình ảnh */
+    height: auto; /* Chiều cao tự động điều chỉnh */
+}
+
+/* CSS cho các biểu tượng mạng xã hội */
+.footer .container .row .left-icon-footer .fa-brands {
+    font-size: 24px; /* Kích thước của biểu tượng */
+    margin-right: 10px; /* Khoảng cách giữa các biểu tượng */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.footer{
+     background: #5444aa;
+     color : white;
+     padding: 50px 0;
+     line-height: 2.5;
+     font-family: 'Poppins' , sans-serif;
+ }
+.footer .container{
+    max-height: 3000px;
+    margin: auto;
+
+}
+.footer .container .row{ /*Các phần tử bên trái*/
+    margin-right: 200px;
+    padding : 100px;
+    text-align: left;
+    font-size: 20px;
+    flex: 1;
+    max-width: calc(25% - 30px);
+
+}
+.text-body-secondary{  /* text*/
+    color: white;
+    font-size: 18px;
+    text-align: center;
+
+
+
+}
+.btn{
+    background: #f3ea28;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    vertical-align: baseline;
+}
+
+
+
+
+
+
+
