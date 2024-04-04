@@ -84,8 +84,6 @@ plus_t.addEventListener('click', () => {
     }
 })
 
-const popup = document.querySelector('#popup__wrapper');
-popup.style.display = "none"
 
 
 let count;
@@ -93,10 +91,29 @@ const btn_plus = document.querySelectorAll('.count :nth-child(3)');
 btn_plus.forEach(element => {
     element.addEventListener("click", () => {
         count = parseInt(count_f.textContent) + parseInt(count_s.textContent) + parseInt(count_t.textContent);
-        if(count > 8) {
-            popup.style.display = "block";
-            
-        }
+        // if (count > 8) {
+        //     popup.style.display = "block";
+
+        // }
     })
 });
+
+// seat table
+const seat_table = document.querySelectorAll('.seat__single');
+
+seat_table.forEach(element => {
+    element.addEventListener("click", () => {
+        element.classList.toggle("is__selected");//them/xoa class vao element
+        img = element.children[0];//lay ra phan tu con dau tien cua element
+        if (element.classList.contains('is__selected')) {
+            img.src = 'assets/images/seat-single-selecting.svg';
+        } else {
+            img.src = 'assets/images/seat-single.svg';
+        }
+        seat = element.children[1];
+        console.log(seat.innerText)
+    })
+});
+
+
 
