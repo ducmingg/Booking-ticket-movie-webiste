@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce3c70e-5b7c-4993-a548-9d52a1c5677d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer.css" afterDir="false" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -51,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "hoainam",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/NAM/OneDrive/Documents/GitHub/Booking-ticket-movie-webiste",
+    "last_opened_file_path": "C:/Users/NAM/OneDrive/Documents/GitHub/Booking-ticket-movie-webiste/style",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -72,7 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NAM\OneDrive\Documents\GitHub\Booking-ticket-movie-webiste\style" />
       <recent name="D:\GitHub\Booking-ticket-movie-webiste\style" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NAM\OneDrive\Documents\GitHub\Booking-ticket-movie-webiste\style" />
     </key>
   </component>
   <component name="RunManager" selected="npm.scss">
@@ -125,6 +131,7 @@
       <workItem from="1712062675623" duration="53000" />
       <workItem from="1712062747711" duration="18000" />
       <workItem from="1712063047031" duration="35000" />
+      <workItem from="1712123458894" duration="18650000" />
     </task>
     <servers />
   </component>
