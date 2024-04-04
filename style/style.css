@@ -329,5 +329,28 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  display: none;
-  opacity: 50%; }
+  opacity: 90%; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: #3E5AC0;
+  color: white;
+  font-size: 1.4em; }
+  .content .noti__btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #F3EA28;
+    cursor: pointer; }
+    .content .noti__btn .txt {
+      background-color: #F3EA28;
+      color: #0F172A;
+      font-size: 1.4em; }
+
+.dp-none {
+  display: none !important; }
+
+.dp-block {
+  display: block !important; }

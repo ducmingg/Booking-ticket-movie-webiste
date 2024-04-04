@@ -1,4 +1,6 @@
 const enable__shtime = document.querySelectorAll('.shtime__item');
+const btn__noti = document.querySelector('.noti__btn');
+const popup = document.querySelector('#popup__wrapper')
 
 enable__shtime.forEach(item => {
 
@@ -88,15 +90,17 @@ plus_t.addEventListener('click', () => {
 
 let count;
 const btn_plus = document.querySelectorAll('.count :nth-child(3)');
-btn_plus.forEach(element => {
-    element.addEventListener("click", () => {
-        count = parseInt(count_f.textContent) + parseInt(count_s.textContent) + parseInt(count_t.textContent);
-        // if (count > 8) {
-        //     popup.style.display = "block";
-
-        // }
+count = parseInt(count_f.textContent) + parseInt(count_s.textContent) + parseInt(count_t.textContent);
+if (count <= 7) {
+    btn_plus.forEach(element => {
+        element.addEventListener("click", () => {
+            count = parseInt(count_f.textContent) + parseInt(count_s.textContent) + parseInt(count_t.textContent);
+            if (count > 8) {
+                popup.classList.add('dp-block');
+            }
+        })
     })
-});
+};
 
 // seat table
 const seat_table = document.querySelectorAll('.seat__single');
@@ -117,3 +121,9 @@ seat_table.forEach(element => {
 
 
 
+btn__noti.addEventListener("click", () => {
+    popup.classList.remove('dp-block')
+    popup.classList.add('dp-none')
+})
+
+console.log(popup)
