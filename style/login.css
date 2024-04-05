@@ -8,8 +8,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: url(assets/images/background-login.jpg) no-repeat;
+    min-height: 200vh;
+    /*background: url('assets/images/background-login.jpg') no-repeat;*/
     background-size: cover;
     background-position: center;
 }
@@ -24,6 +24,9 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+}
+.star{
+    color: #FF0033;
 }
 .logo{
     font-size: 2em;
@@ -68,6 +71,26 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    /*overflow: hidden;*/
+    transition: height .2s ease;
+}
+/*.wrapper-logout{*/
+/*    position: relative;*/
+/*    width: 800px;*/
+/*    height: 800px;*/
+/*    background: transparent;*/
+/*    border: 2px solid rgba(255,255,255,.5);*/
+/*    border-radius: 20px;*/
+/*    backdrop-filter: blur(20px);*/
+/*    box-shadow: 0 0 10px rgba(0,0,0,.5);*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+    /*transition: height .2s ease;*/
+/*}*/
+.wrapper .active{
+    height: 520px;
+
 }
 .wrapper .form-box{
     width: 100%;
@@ -91,7 +114,7 @@ header{
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #94A3B8;
+    color: #162938;
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
@@ -148,4 +171,21 @@ header{
     text-align: right;
     font-weight: 600;
      margin: 25px 0 10px;
+}
+.wrapper .form-box.login{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+.wrapper.active .form-box.login {
+    transition: none;
+    transform: translateX(-400px);
+}
+.wrapper .form-box.register{
+    position: absolute;
+    transition: none;
+    transform: translateX(500px) ;
+}
+.wrapper.active .form-box.register {
+    transition: transform .18s ease;
+    transform: translateX(0);
 }
