@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce3c70e-5b7c-4993-a548-9d52a1c5677d" name="Changes" comment="" />
+
+    <list default="true" id="9ce3c70e-5b7c-4993-a548-9d52a1c5677d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/footer-america.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,9 +124,18 @@
       <workItem from="1712031454763" duration="152000" />
       <workItem from="1712031646403" duration="878000" />
       <workItem from="1712041282052" duration="4097000" />
-      <workItem from="1712055330933" duration="2112000" />
-      <workItem from="1712128195062" duration="460000" />
-      <workItem from="1712492190398" duration="402000" />
+
+      <workItem from="1712055330933" duration="1636000" />
+      <workItem from="1712062326228" duration="339000" />
+      <workItem from="1712062675623" duration="53000" />
+      <workItem from="1712062747711" duration="18000" />
+      <workItem from="1712063047031" duration="35000" />
+      <workItem from="1712123458894" duration="18650000" />
+      <workItem from="1712241053091" duration="445000" />
+      <workItem from="1712241516995" duration="231000" />
+      <workItem from="1712241810319" duration="1569000" />
+      <workItem from="1712299886325" duration="13489000" />
+      <workItem from="1712482177504" duration="865000" />
     </task>
     <servers />
   </component>
