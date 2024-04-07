@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="9ce3c70e-5b7c-4993-a548-9d52a1c5677d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/footer-america.png" beforeDir="false" />
@@ -19,13 +20,11 @@
       <list>
         <option value="SCSS File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/style/variable.scss" root0="FORCE_HIGHLIGHTING" />
@@ -37,22 +36,17 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2eCgKTZBmqxZ7pHw8DIQM5vwVB2" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hoainam&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/NAM/OneDrive/Documents/GitHub/Booking-ticket-movie-webiste/style&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Booking-ticket-movie-webiste/assets/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -60,7 +54,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;D:/nodejs/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.scss.executor&quot;: &quot;Run&quot;,
     &quot;npm.test.executor&quot;: &quot;Run&quot;,
@@ -73,11 +67,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\NAM\OneDrive\Documents\GitHub\Booking-ticket-movie-webiste\style" />
+      <recent name="D:\GitHub\Booking-ticket-movie-webiste\assets\images" />
       <recent name="D:\GitHub\Booking-ticket-movie-webiste\style" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NAM\OneDrive\Documents\GitHub\Booking-ticket-movie-webiste\style" />
+      <recent name="D:\GitHub\Booking-ticket-movie-webiste" />
     </key>
   </component>
   <component name="RunManager" selected="npm.scss">
@@ -100,6 +92,13 @@
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,6 +124,7 @@
       <workItem from="1712031454763" duration="152000" />
       <workItem from="1712031646403" duration="878000" />
       <workItem from="1712041282052" duration="4097000" />
+
       <workItem from="1712055330933" duration="1636000" />
       <workItem from="1712062326228" duration="339000" />
       <workItem from="1712062675623" duration="53000" />

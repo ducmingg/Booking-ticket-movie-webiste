@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch style/base.scss style/base.css --output-style nested",
-    "scss": "node-sass --watch style/style.scss style/style.css --output-style nested"
+    "scss": "node-sass --watch style/style.scss style/style.css --output-style nested",
+    "scss": "node-sass --watch style/home.scss style/home.css --output-style nested"
   },
   "author": "",
   "license": "ISC",
